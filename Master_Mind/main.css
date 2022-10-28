@@ -1,0 +1,109 @@
+.fullBoard{
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(6, 94, 112);
+    height: 805px;
+    width: 400px;
+    position: absolute;
+}
+
+.board{
+    display: grid;
+    width: 292.72px;
+    height: 100%;
+    float: left;
+}
+
+.pegs{
+    display:grid;
+    height: 100%;
+    width: 20%;
+    float: right;
+    margin-top: 0px;
+}
+
+.colorBoard{
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(3, 100px);
+    width: 200px;
+    height: 300px;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.currentColor{
+    width: 200px;
+    height: 50px;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.code{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(1, 50px);
+    width: 200px;
+    height: 50px;
+    border: 5px solid black;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.secretColor{
+    background-color: rgb(0, 0, 0);
+}
+
+.submit{
+    width: 200px;
+    height: 50px;
+    border: 5px solid black;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(128, 128, 128);
+    opacity: .5;
+}
+
+.submit:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.other{
+    margin: auto;
+}
+
+
+.refresh {
+    width: 200px;
+    height: 50px;
+    border: 5px solid black;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(128, 128, 128);
+}
+
+.rules {
+    width: 200px;
+    height: 50px;
+    border: 5px solid black;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(128, 128, 128);
+}
+.music{
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
