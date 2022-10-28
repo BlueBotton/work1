@@ -1,0 +1,52 @@
+<view class="body">
+    <form bindsubmit="submit">
+        <view class="section">
+            <view class="title">组长：</view>
+            <input type="nickname" class="input" name="nickname" placeholder="姓名" />
+        </view>
+
+        <view class="section">
+            <view class="title">性别：</view>
+            <radio-group class="mg" name="gender">
+                <label >
+                    <radio value="nan" />
+                    男
+                </label>
+                <label >
+                    <radio value="nv" />
+                    女
+                </label>
+            </radio-group>
+        </view>
+
+        <view class="section">
+            <view class="title">学号：</view>
+            <input class="input" name="num" placeholder="你的学号" />
+        </view>
+        <view class="section">
+            <view class="title">选题：</view>
+            <input class="input" name="code_a" placeholder="你们的选题方向" />
+        </view>
+        <view class="section">
+            <view class="title">组员1：</view>
+            <input class="input" name="code_b" placeholder="你的队友" />
+        </view>
+
+        <view class="section">
+            <view class="title">组员2：</view>
+            <input class="input" name="code_c" placeholder="你的队友" />
+        </view>
+        <view class="section">
+            <view class="title">目前进度概况：</view>
+            <textarea style="height:100rpx" class="input" name="info" placeholder="介绍一下你组基本情况" />
+        </view>
+
+        <view class="area">
+          
+          <button style="margin: 30rpx 0" type="primary" formType="submit">确认填写正确</button>
+          <navigator open-type="redirect" url="/pages/tip/index" class="join">提交</navigator>
+            <button style="margin: 30rpx 0" formType="reset">重置</button>
+        </view>
+
+    </form>
+</view>

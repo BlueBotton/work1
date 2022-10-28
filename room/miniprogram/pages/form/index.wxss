@@ -1,0 +1,36 @@
+.body{
+    margin: 40rpx;
+}
+.section{
+    margin: 40rpx 0 80rpx;
+}
+.title{
+    font-size: 36rpx;
+}
+.input{
+    margin: 30rpx 0;
+    border-bottom: 1rpx solid;
+    padding: 20rpx 0;
+    width: 100%;
+}
+.mg{
+    margin: 30rpx 0;
+}
+.area{
+    margin: 100rpx auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.join{
+    width: 400rpx;
+    height: 100rpx;
+    background-color: rgb(7, 241, 85);
+    margin: 50rpx auto;
+    text-align: center;
+    line-height: 100rpx;
+    color: rgb(0, 8, 2);
+    font-weight: bold;
+    border-radius: 12rpx;
+}

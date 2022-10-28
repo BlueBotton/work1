@@ -1,0 +1,11 @@
+<view>
+    <view class="cover">
+        <image src="/images/zhou.jpg" class="logo" />
+    </view>
+    <view class="title">嗨！欢迎使用“舟”小程序！</view>
+    <view class="choose">
+        <navigator class="join" url="/pages/form/index">创建小组</navigator>
+        <navigator class="join" url="/pages/list/index">查看小组</navigator>   
+    </view>
+
+</view>

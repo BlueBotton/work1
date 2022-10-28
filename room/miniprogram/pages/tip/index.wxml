@@ -1,0 +1,14 @@
+<!-- index.wxml -->
+<view class="flex column aic jcc page">
+  <view wx:if="{{!type}}" class="flex column aic jcc page">
+    <icon size="180rpx" type="success"></icon>
+    <view wx:if="{{!code}}" class="flex column aic jcc">
+      <view class="tip">
+                <view class="text">创建成功！</view>
+        </view>
+      <view class="text">相关小组信息将在列表页展示</view>
+      <view class="text">每个小组人数上限为3人，组长确认组员后进行登记</view>
+      <view class="text">小组可自行创建</view>
+    </view>
+  </view>
+  </view>
